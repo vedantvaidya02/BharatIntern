@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7 )),url("Temp.jpg");
+  background-position: center;    
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}  
+.container {
+  max-width: 600px;
+  padding: 50px;
+  color: #fff;
+
+  /* border: 2px solid red; */
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2 )) ;
+  box-shadow: 0p 0px 5px 2px #fff;
+  margin:15rem 30rem;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.for{
+  margin-left: 5rem;
+  padding:0.5rem;
+  }
+  
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  flex-basis: 100px;
+  color: #fbfafa;
+  font-size: 1.2rem;
+}
+
+input {
+  flex-basis: 200px;
+  padding: 20px; 
+  margin-left: 5px;
+  border: 1px solid #6a47eb;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 2px 3rem;
+  border: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #fff;
+  background-color: #3672cb;
+  cursor: pointer;
+  margin-right: 25px; 
+  transition: all 0.3s ease-in-out;
+}
+
+
+button:hover {
+  background-color: #289ac0;
+  color: #010101;
+}
+
+#result {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
